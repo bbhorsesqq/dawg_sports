@@ -76,7 +76,7 @@ main{
 }
 section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width:33vw;
     height:70vh;
@@ -87,11 +87,12 @@ section{
     border-radius: 25px;
     border:3px solid #e4e0e9;
 }
-#about-us{
+#middle{
     width: 30vw;
-    text-align: center;
-    padding: 5px 5px 5px 10px;
-    margin: 0px 20px 0px 125px;
+    height: 55vh;
+    /* text-align: center; */
+    /* padding: 5px 5px 0px 10px;
+    margin: 0px 20px 0px 125px; */
 }
 
 #podcast{
@@ -110,6 +111,13 @@ section{
 #bills-logo{
     width:30vw;
     height: 100vh;
+
+}
+
+#wr-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
