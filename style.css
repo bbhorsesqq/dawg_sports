@@ -38,6 +38,7 @@ q:before, q:after {
 
 body{
     background-color: rgb(0, 0, 0);
+    font-size:14px;
 
 }
 
@@ -51,11 +52,12 @@ header{
     height: 10vh;
     font-family: 'Ranchers', cursive;
     padding:5px 5px 5px 5px;
+  
 
 
 }
 h1{
-    font-size: 55px;
+    font-size: 40px;
     margin:0px 10px 0px 10px;
     text-shadow:2px 2px #42d6b6;
     
