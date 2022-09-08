@@ -56,6 +56,14 @@ header{
 
 
 }
+
+nav{
+    height: 50px;
+    background-color: rgb(138, 155, 204);
+    display: flex;
+    justify-content: space-around;
+}
+
 h1{
     font-size: 40px;
     margin:0px 10px 0px 10px;
@@ -78,8 +86,8 @@ main{
     display: flex;
     flex-direction: row;
     height: 140vh;
-    background-color: #272729;
-    color:#d7dadc;
+    background-color: rgb(214, 214, 214);
+    color:#000000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 article{
