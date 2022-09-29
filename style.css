@@ -55,6 +55,7 @@ header{
   
 }
 
+
 nav{
     height: 70px;
     background-image: linear-gradient(to top left, rgb(32, 155, 186), rgb(233, 128, 243));
@@ -72,8 +73,70 @@ h1{
 }
 #arK9{
     height: 80px;
-    width:100px
+    width:100px;
+    -webkit-animation: slideIn 1.5s forwards;
+    -moz-animation: slideIn 1.5s forwards;
+    animation: slideIn 1.5s forwards;
+}  
+
+#arK9:hover{
+    
+    -webkit-animation: slideOut 1.5s forwards;
+    -moz-animation: slideOut 1.5s forwards;
+    animation: slideOut 1.5s forwards;
 }
+@-webkit-keyframes slideIn {
+    0% {
+      transform: translateX(-500px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @-moz-keyframes slideIn {
+    0% {
+      transform: translateX(-500px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-500px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @-webkit-keyframes slideOut {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(2000px);
+    }
+  }
+  @-moz-keyframes slideOut {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(2000px);
+    }
+  }
+  @keyframes slideOut {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(2000px);
+    }
+  }
+
+
+
 h3{
     font-size:20px;
     margin: 10px 10px 10px 10px;
@@ -177,11 +240,18 @@ article{
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    height: 10vh
 }
 
 .player-pic{
     height: 15vh;
     width:8vw;
+}
+
+h5{
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 footer{
@@ -194,6 +264,20 @@ footer{
     font-weight: bolder;
     font-size: 25px;
     padding: 40px 0px 0px 0px ;
+}
+
+.ad-page{
+    background-color: rgb(230, 230, 249);
+    height: 100vh;
+    text-decoration: wavy;
+}
+
+#nfl-player-rankings{
+    height: 100vh;
+}
+
+#nba-player-rankings{
+    height: 100vh;
 }
 
 
