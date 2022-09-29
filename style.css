@@ -45,11 +45,10 @@ body{
 
 header{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: ;
     align-items: center;
-    text-align: center;
-    background-image: linear-gradient(to bottom right, rgb(255, 0, 200), rgb(17, 53, 77));
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 200), rgb(36, 81, 111));
     height: 10vh;
     font-family: 'Ranchers', cursive;
     padding:5px 5px 5px 5px;
@@ -58,9 +57,11 @@ header{
 
 nav{
     height: 70px;
+    background-image: linear-gradient(to top left, rgb(32, 155, 186), rgb(233, 128, 243));
     background-color: rgb(138, 155, 204);
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 h1{
@@ -69,10 +70,40 @@ h1{
     text-shadow:2px 2px #42d6b6;
     
 }
+#arK9{
+    height: 80px;
+    width:100px
+}
 h3{
     font-size:20px;
     margin: 10px 10px 10px 10px;
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
 }
+
+.title-link:hover{
+
+    -webkit-transform: scale(1.2); 
+    color:rgb(114, 19, 12);
+    border-radius: 25px;
+}
+
+.title-link{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Rye', cursive;
+}
+#nfl-logo{
+margin: 10px 10px -6px 0;
+    height: 35px;
+
+}
+#nba-logo{
+    margin: 10px 10px -6px 0;
+    height: 35px;
+    width: 23px;
+    
+    }
 
 h2{
     margin: 15px 0px 0px 15px;
@@ -80,27 +111,72 @@ h2{
     
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 #auth{
     height: 20px;
     width: 20px;
 }
-
-
 main{
     display: flex;
     flex-direction: row;
-    height: 140vh;
+    align-items: space-around;
+    justify-content: space-around;
+   
     background-color: rgb(214, 214, 214);
     color:#000000;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder
 }
-article{
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    margin-top: 10px;
+   
+}
+
+#nfl-standings{
     border-radius: 25px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding:10px;
-    height: 40vh;
+    height: 200vh;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.player-pic{
+    border-radius: 25px;
+}
+
+article{
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:15px;
+    height: 25vh;
     width:20vw;
+    margin:10px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .player-pic{
